@@ -112,3 +112,21 @@ const data = [
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new article.
 
 */
+
+const article = obj =>{
+  let div = document.createElement('div');
+  div.classList.add(;article);
+  let title = document.createElement('h2');
+  title.textContent = obj.title;
+  let date = document.createElement('p')
+  date.textContent= obj.date;
+
+  let firstParagraph = document.createElement('p')
+  date.textContent= obj.firstParagraph;
+  let secondParagraph = document.createElement('p')
+  date.textContent= obj.secondParagraph;
+  let thirdParagraph = document.createElement('p')
+  date.textContent= obj.thirdParagraph;
+
+div.appendChild.article;
+}
